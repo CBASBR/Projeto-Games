@@ -1,0 +1,91 @@
+body {
+    background-color: black; 
+    color: aliceblue;
+}
+
+form input[type=text], form input[type=password], form textarea {
+    width: 100%; 
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    border: none;
+}
+
+.titulojogos {
+    font-size: x-large;
+}
+
+.link {
+    color: red;
+}
+
+.sinopse {
+    width: 60%;
+    text-align: justify;
+}
+
+
+.centralizado {
+    text-align: center;
+}
+
+.menu {
+    background-color: aqua;
+    color: black;
+    font-size: x-large;
+    display: flex;
+}
+
+.menuUsuario {
+    width: 100%; 
+    direction: rtl;
+}
+
+.botaomenu {
+    background-color: aqua;
+    border: 1px solid aqua;
+    font-size: x-large;
+    padding: 10px 15px 10px 15px;
+}
+
+.botaomenu:hover {
+    background-color: black;
+    color: aqua;
+    transition-duration: 0.5s;
+}
+
+.cadastro {
+    text-align: right;
+    border-bottom: 0px;
+}
+
+.formCadastro {
+    max-width: 300px;
+}
+
+.formLogin {
+    max-width: 300px;
+}
+
+.divform {
+    display: flex; 
+    justify-content: center;
+}
+
+.formContato {
+    max-width: 300px;
+}
+
+.divjogos { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.novidades { 
+    text-align: center;
+}
+
+.imagemPrincipal {
+    display: flex;
+    justify-content: center;
+}
